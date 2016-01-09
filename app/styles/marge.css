@@ -1,0 +1,64 @@
+/*
+Error: File to import not found or unreadable: util.scss.
+       Load paths:
+         Compass::SpriteImporter
+         /home/morninng/Angular/test_sass/app/sass
+         /home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets
+        on line 3 of /home/morninng/Angular/test_sass/app/sass/marge.scss
+
+1: @import "participant_table.scss";
+2: @import "video.scss";
+3: @import "util.scss";
+
+Backtrace:
+/home/morninng/Angular/test_sass/app/sass/marge.scss:3
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:45:in `import'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:23:in `block in render_with_sourcemap'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:22:in `render_with_sourcemap'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:293:in `watch'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `call'
+/home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/home/morninng/.rbenv/versions/2.1.2/bin/compass:23:in `load'
+/home/morninng/.rbenv/versions/2.1.2/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: util.scss.\A        Load paths:\A          Compass::SpriteImporter\A          /home/morninng/Angular/test_sass/app/sass\A          /home/morninng/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets\A         on line 3 of /home/morninng/Angular/test_sass/app/sass/marge.scss\A \A 1: @import \"participant_table.scss\";\A 2: @import \"video.scss\";\A 3: @import \"util.scss\";"; }
